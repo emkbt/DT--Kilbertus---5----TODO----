@@ -65,13 +65,13 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/emkbt/DT--Kilbertus--5--ToDoList--/tags). 
 
 ## Authors
 
 * **Emma Kilbertus** - *Initial work* - [emkbt](https://github.com/emkbt)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/emkbt/DT--Kilbertus--5--ToDoList--/graphs/contributors) who participated in this project.
 
 ## License
 
