@@ -30,8 +30,9 @@ class TodoList:
     def display_tasks(self):
         print("Tasks:")
         for task in self.tasks:
-            due_date_info = f" (Due Date: {task.due_date})" if task.due_date else ""
-            print(f"- {task.description}{due_date_info}")
+            due_date_str = task.due_date.strftime("%Y-%m-%d") if task.due_date else "No due date"
+            print(f"{task.description} - {due_date_str}")
+            
 
 def main():
     todo_list = TodoList()
