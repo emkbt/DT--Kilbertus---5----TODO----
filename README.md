@@ -33,27 +33,24 @@ A step-by-step guide to getting a development environment running:
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+Currently, this project does not have automated tests. However, you can manually test the functionality by running the application and checking if the basic operations (adding, deleting, completing tasks) work as expected.
 
 ### Break down into end to end tests
 
-Explain what these tests test and why
+The manual tests cover the following scenarios:
 
-```
-Give an example
-```
+- **Adding a Task:**
+  - Enter a task, and verify that it is added to the list.
 
-### And coding style tests
+- **Deleting a Task:**
+  - Enter an existing task, and verify that it is removed from the list.
 
-Explain what these tests test and why
+- **Completing a Task:**
+  - Enter an existing task, and verify that it is marked as complete.
 
-```
-Give an example
-```
+### Coding style tests
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
+Since this is a simple console application, formal coding style tests may not be necessary. However, it's a good practice to follow PEP 8 or other relevant style guides.
 
 ## Built With
 
