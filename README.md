@@ -68,6 +68,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Emma Kilbertus** - *Initial work* - [emkbt](https://github.com/emkbt)
+* **Raphael Michon** - *Added features*
 
 See also the list of [contributors](https://github.com/emkbt/DT--Kilbertus--5--ToDoList--/graphs/contributors) who participated in this project.
 
