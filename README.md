@@ -11,6 +11,7 @@ These instructions will help you set up the project on your local machine for de
 What things you need to install the software and how to install them:
 
 - Python 3.0
+- datetime library for Python
 
 ### Installing
 
