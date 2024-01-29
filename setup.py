@@ -3,7 +3,7 @@
 from distutils.core import setup
 
 setup(
- name='{DT--Kilbertus---5----TODO----}',
+ name='{DT--Kilbertus--5--ToDoList--}',
  version='1.0',
  author='{emkbt}',
  license='MIT',
