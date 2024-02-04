@@ -1,0 +1,197 @@
+{
+	"info": {
+		"_postman_id": "1adbc394-beb2-4d9d-986b-61a6bb922ca9",
+		"name": "Todo List",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31462194"
+	},
+	"item": [
+		{
+			"name": "Add Task",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "description",
+						"value": "Study",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/add?api_key=83a426cd48bdbae86c217bf2217bd038",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"add"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "83a426cd48bdbae86c217bf2217bd038"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Auth",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/auth?api_key=83a426cd48bdbae86c217bf2217bd038",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"auth"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "83a426cd48bdbae86c217bf2217bd038"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Tasks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/tasks?api_key=83a426cd48bdbae86c217bf2217bd038",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"tasks"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "83a426cd48bdbae86c217bf2217bd038"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Task",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "description",
+						"value": "Study",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/delete?api_key=83a426cd48bdbae86c217bf2217bd038",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"delete"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "83a426cd48bdbae86c217bf2217bd038"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Complete Task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "description",
+						"value": "Study",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/complete?api_key=83a426cd48bdbae86c217bf2217bd038",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"complete"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "83a426cd48bdbae86c217bf2217bd038"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
